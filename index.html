@@ -4,16 +4,30 @@
 <head>
     <title>Fall Weather Forecast</title>
     <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
 
     <!-- Embedded styles will go here -->
+    <style>
+        h1{
+            color: dimgray;
+            margin: auto;
+            padding-bottom: 12%;
+            text-align: center;
+        }
 
+        .day {
+            text-align: left;
+            background-color: greenyellow;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Fall Weather Forecast</h1>
     <div class="forecast">
-        <p class="day">Monday: Sunny, 60°F</p>
+        <!--Used an inline style to change the color of the sunny day to yellow-->
+        <p class="day" style="color:yellow">Monday: Sunny, 60°F</p>
         <p class="day">Tuesday: Cloudy, 55°F</p>
         <p class="day">Wednesday: Rainy, 50°F</p>
     </div>
